@@ -20,6 +20,9 @@ body {
     max-width: 1320px;
    }        
  }
+ h1,h2,h3,h4{
+  color: black;
+ }
 h1,h2,h3,h4,h5,h6,p{
   margin-bottom: 0;
 }
@@ -179,4 +182,30 @@ ul{
 }
 .h-100{
   height: 100%;
+}
+
+.sub_title{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.font_cormorant{
+  font-family: "Cormorant Garamond", serif;
+  &.fw-500{
+    font-weight: 500;
+  }
+  &.fw-600{
+    font-weight: 600;
+  }
+  &.fw-400{
+    font-weight: 400;
+  }
+}
+
+.flex_align{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }

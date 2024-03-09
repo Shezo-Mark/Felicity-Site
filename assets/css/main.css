@@ -56,6 +56,10 @@
   color: #4F4F4F;
 }
 
+.text_brand {
+  color: #ED323D;
+}
+
 .fs-24 {
   font-size: 24px !important;
 }
@@ -198,6 +202,10 @@ body {
     max-width: 1320px;
   }
 }
+h1, h2, h3, h4 {
+  color: black;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 0;
 }
@@ -403,6 +411,33 @@ ul {
   height: 100%;
 }
 
+.sub_title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.font_cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
+.font_cormorant.fw-500 {
+  font-weight: 500;
+}
+.font_cormorant.fw-600 {
+  font-weight: 600;
+}
+.font_cormorant.fw-400 {
+  font-weight: 400;
+}
+
+.flex_align {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
 /*--------------*\
     Boxes Section
 \*--------------*/
@@ -464,6 +499,40 @@ ul {
 /*--------------*\
     Lists Section
 \*--------------*/
+.check_list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+@media only screen and (max-width: 991.98px) {
+  .check_list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+.check_list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.check_list li span {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.check_list li span i {
+  font-size: 18px;
+}
+
 /*--------------*\
     Modals Section
 \*--------------*/
@@ -630,7 +699,7 @@ header .header_main .navbar-nav li .dropdown-menu a:hover {
   height: 85vh;
 }
 .section_hero .hero_content {
-  width: 750px;
+  max-width: 750px;
   background: rgba(10, 37, 58, 0.66);
   margin-left: auto;
   height: 100%;
@@ -646,6 +715,16 @@ header .header_main .navbar-nav li .dropdown-menu a:hover {
 .section_hero .hero_content h2, .section_hero .hero_content p {
   color: #fff;
   margin-bottom: 20px;
+}
+
+/*--------------*\
+    Home Page
+\*--------------*/
+.section_about_us h2 {
+  margin-bottom: 20px;
+}
+.section_about_us h5 {
+  margin: 20px 0 7px;
 }
 
 /*# sourceMappingURL=main.css.map */
