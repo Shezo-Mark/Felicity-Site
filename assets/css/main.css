@@ -727,4 +727,87 @@ header .header_main .navbar-nav li .dropdown-menu a:hover {
   margin: 20px 0 7px;
 }
 
+.section_services {
+  color: #fff;
+  background-color: #3A3A3C;
+  padding: 60px;
+}
+.section_services .main_heading {
+  color: white;
+  margin-bottom: 20px;
+}
+.section_services .sub_title_services {
+  margin-bottom: 56px;
+}
+.section_services .card_services {
+  border-radius: 16px;
+  border: 0px;
+}
+.section_services .card_services .img {
+  border-radius: 16px;
+}
+.section_services .card_services .desc {
+  padding: 20px 20px 0 20px;
+}
+.section_services .card_services .desc p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.5rem;
+  padding-bottom: 13px;
+}
+.section_services .card_services .desc a {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.section_services .card_services .desc .date {
+  color: #adadad;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+.section_services .card_services .desc .date span::before {
+  content: "•";
+  margin: 0 5px;
+}
+
+.section_testimonials {
+  padding: 110px 0;
+}
+.section_testimonials .sub_title {
+  margin-bottom: 20px;
+}
+
+.section_quote {
+  color: #fff;
+  background-image: url("/assets/images/form-sect.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+.section_quote h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.section_quote p {
+  margin-bottom: 36px;
+}
+.section_quote .input_tag {
+  padding: 10px 20px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0 0 25px 0px;
+}
+.section_quote .btn_transparent {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */

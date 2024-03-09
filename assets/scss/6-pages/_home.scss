@@ -10,3 +10,86 @@
         margin: 20px 0 7px;
     }
 }
+.section_services{
+    color: $white;
+    background-color: $body-main-color;
+    padding: 60px;
+    .main_heading{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .sub_title_services{
+        margin-bottom: 56px;
+
+    }
+    .card_services{
+        border-radius: 16px;
+        border: 0px;
+        .img{
+            border-radius: 16px;
+        }
+        .desc{
+            padding: 20px 20px 0 20px;
+            p{
+                color: #777;
+                font-size: 15px;
+                line-height: 1.5rem;
+                padding-bottom: 13px;
+            }
+            a{
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+            }
+            .date{
+                color: #adadad;
+                font-size: 12px;
+                line-height: 1.3em;
+                    span::before{
+                            content: "•";
+                            margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+
+.section_testimonials{
+    padding: 110px 0;
+    .sub_title{
+        margin-bottom: 20px;
+    }
+}
+
+.section_quote{
+    color: $white;
+    background-image: url('/assets/images/form-sect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    h2{
+        color: $white;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 36px;
+    }
+    .input_tag{
+        padding: 10px 20px;
+        width: 100%;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0 0 25px 0px;
+    }
+    .btn_transparent{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: $white;
+    }
+}
